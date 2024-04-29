@@ -17,7 +17,7 @@ public class DogService {
     }
 
     public List<Dog> getDogsList() {
-        return this.dogRepository.findAllByName("rex");
+        return this.dogRepository.findAll();
     }
 //
 //    public Dog getDogById(long id) {
